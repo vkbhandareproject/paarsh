@@ -132,7 +132,7 @@ header {
 }
 
 .slider:nth-child(2) {
-    background: url('../images/slider/tech.jpg')no-repeat center center/cover;
+    background: url('../images/slider/android.jpg')no-repeat center center/cover;
     animation-name: second;
 
 }
@@ -143,7 +143,7 @@ header {
 }
 
 .slider:nth-child(4) {
-    background: url('../images/slider/android.jpg')no-repeat center center/cover;
+    background: url('../images/slider/php2.jpeg')no-repeat center center/cover;
     animation-name: fourth;
 
 }
