@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  height: 2.9rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  width: 3.1rem;
+}
+.logo img {
+  width: 100%;
+}
+
+nav ul li:hover {
+  background-color: #555;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #333;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  float: none;
+}
+
+/* contact  */
+#contact-sec {
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+  margin: 1rem 0;
+}
+
+.banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-home {
+  background-image: url("/images/banner-home.jpg");
+}
+
+#banner-contact {
+  background-image: url("/images/banner-contact.jpg");
+}
+
+/* cources  */
+#courses {
+  text-align: center;
+}
+
+#cource-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.cource {
+  background-color: #333;
+  color: white;
+  width: 25rem;
+  padding: 0.5rem;
+}
+
+.cource h2 {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+#address {
+  width: 50%;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+}
+
+.map{
+  margin-top: 2rem;
+}
+
+/* contatc form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style for the form labels */
+label {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+/* Style for the form input fields and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+/* Style for the form submit button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+/* Style for the form submit button on hover */
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  /* position: sticky; */
+  margin-top: 1rem;
+  bottom: 0;
+  width: 100%;
+  padding: 0.7rem;
+  text-align: center;
+}
+

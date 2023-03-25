@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="logo" href="/"><img class="" src="./images/logo.png" alt="logo"></a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/index.html#courses">Courses</a>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Graphic</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner" id="banner-contact">
+    </section>
+
+    <section id="address">
+        <h1>Our Address</h1>
+        <div><img src="./images/company.jpg" alt="company"></div>
+        <p>Paarsh Infotech Pvt Ltd. Behind Bank of Maharashtra, Near Indrakund Devasthan, Panchavati Karanja,
+            Nashik-422003</p>
+    </section>
+
+    <section id='contact-sec'>
+        <div>
+            <div>
+                <h1>Enquiry Form</h1>
+                <form id="form" onsubmit="submitForm(event)">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter your subject">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29575.75298937024!2d-122.43129717790626!3d37.7739725356166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e29452f836f%3A0x1d6af3538e46175d!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1618344784044!5m2!1sen!2sus"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright © 2023
+                        <span>My Website</span> All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
